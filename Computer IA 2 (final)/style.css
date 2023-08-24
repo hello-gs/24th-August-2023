@@ -1,0 +1,246 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background image for the body */
+body {
+ 
+  font-family: Arial, sans-serif;/* Global styles */
+}
+
+
+/* Header styles */
+/* Header and Navigation Styles */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Dropdown Styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 12px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Hero Section Styles */
+/* Apply background image to the hero section */
+/* Apply background image to the hero section */
+.hero {
+  background-image: url('hero-image.jpg'); /* Replace with the actual path to your hero image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw; /* Set width to cover the entire viewport width */
+  height: 400px; /* Adjust the height as needed */
+  margin: 0; /* Remove any default margin that might be affecting the layout */
+  padding: 0; /* Remove any default padding that might be affecting the layout */
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+}
+
+/* Style the hero content */
+.hero-content {
+  text-align: center;
+  color: white; /* Set the text color to contrast with the image */
+}
+
+
+
+/* About, Services, Contact Sections Styles */
+.about-section,
+.services-section,
+.contact-section {
+  padding: 40px 0;
+}
+
+/* Map Section Styles */
+.map-section {
+  text-align: center;
+}
+
+/* Social Section Styles */
+.social-section {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+
+.feedback-section {
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+.feedback-section h2 {
+  margin-bottom: 20px;
+}
+
+/* Style the Google Form iframe */
+.feedback-form {
+  width: 100%;
+  height: 800px;
+  border: none;
+}
+.form-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.container {
+  text-align: center;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  margin-top: 20px;
+  color:#333
+}
+.description{
+  margin-top: 20px;
+  line-height: 1.6;
+}
+ul {
+  padding-left: 20px;
+}
+/*residencial construction*/
+.page-residential {
+  background-image: url('res.png');
+  height: 200px;
+}
+
+/* Services section styles */
+.services-section {
+  /* Add your styles for services section */
+}
+
+/* Contact section styles */
+.contact-section {
+  /* Add your styles for contact section */
+}
+/* Add your global styles here */
+
+/* CSS for modals */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Additional styles for login, signup, and forgot password forms */
+/* Customize these styles to match your design */
+

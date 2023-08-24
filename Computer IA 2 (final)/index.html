@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sigma RK Engineers</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+       <div class="header-container">
+      <div class="logo">
+        <img src="logo.png" alt="Logo" />
+       
+      </div>
+    <div class="nav-toggle">&#9776;</div>
+      <nav class="nav-links">
+        <!-- Login and Signup Modal -->
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2>Login</h2>
+    <form id="loginForm">
+      <input type="text" id="loginUsername" placeholder="Username" required>
+      <input type="password" id="loginPassword" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="#signupModal" onclick="openSignupModal()">Sign Up</a></p>
+    <p>Forgot your password? <a href="#forgotPasswordModal" onclick="openForgotPasswordModal()">Reset Password</a></p>
+  </div>
+</div>
+
+<div id="signupModal" class="modal">
+  <!-- Signup form goes here, similar to login form -->
+</div>
+
+<div id="forgotPasswordModal" class="modal">
+  <!-- Forgot password form goes here -->
+</div>
+
+        <div class="dropdown">
+          <a href="#" class="dropbtn">Services</a>
+          <div class="dropdown-content">
+            <a href="#services">Overview</a>
+            <a href="cbc.html">Commercial Building Construction</a>
+            <a href="rbc.html">Residential Building Construction</a>
+            <a href="id.html">Interior Designing</a>
+          </div>
+        </div>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+    
+  </header>
+
+ <div class="hero">
+  <div class="hero-content">
+    <img src="heroimage.png" alt="Hero Image">
+    <h1>Sigma RK Engineers</h1>
+    <p><h4>Providing Quality Construction Services for 40 Years</h4></p>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+
+  <section id="about" class="about-section">
+        <h2>About Us </h2>
+
+<p>
+  SRKE was established with a vision to combine modern sophistication of design with contemporary construction solutions. The resulting aesthetics and quality makes SRKE the most comprehensive design and execution company. It is the creative prodigy of mr. R.K. Sharma, a Civil Engineer. SRKE has been successfully designing, executing, managing of construction project and solving the problems related to constructions. SRKE is the first choice of Architects and Clients. 
+
+</p>  
+  </section>
+
+  <section id="services" class="services-section">
+     <h2>Our Services</h2>
+<p>
+  We specialize in various areas including commercial and residential building construction, interior designing, silo and water tank construction, renovation work, and more. Our commitment to quality, integrity, and timely project delivery sets us apart in the industry.
+</p> 
+ 
+  <div class="service">
+    <h3>Commercial Building Construction</h3>
+    <p>We provide comprehensive commercial building construction services tailored to meet the unique needs of each project. From concept to completion, we ensure quality and efficiency.</p>
+  </div>
+  <div class="service">
+    <h3>Residential Building Construction</h3>
+    <p>Our residential construction expertise covers a wide range of projects, from single-family homes to multi-unit complexes. We create spaces that reflect your vision and lifestyle.</p>
+  </div>
+  <div class="service">
+    <h3>Interior Designing</h3>
+    <p>Our interior design team crafts innovative and functional spaces that enhance the aesthetics and usability of any interior, delivering a unique blend of form and function.</p>
+  </div>
+  
+  </section>
+
+  <section id="contact" class="contact-section">
+<section id="map" class="map-section">
+  <h2>Location</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3505.8406381199766!2d77.228723!3d28.514442!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDMwJzQ5LjYiTiA3N8KwMTMnNDMuMyJF!5e0!3m2!1sen!2sin!4v1691934084285!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+  </section>
+
+<section id="social" class="social-section">
+  <h2>Follow us on Social Media</h2>
+  <div class="social-links">
+    <a href="https://www.facebook.com/sigmarkengineers" target="_blank" class="social-link">
+      <img src="facebook.png" alt="Facebook Logo" width="50" height="50">
+    </a>
+    <a href="https://www.instagram.com/sigmarkengineers" target="_blank" class="social-link">
+      <img src="instagram.jpg" alt="Instagram Logo" width="50" height="50">
+    </a>
+    <a href="https://www.youtube.com/user/sigmarkengineers" target="_blank" class="social-link">
+      <img src="youtube.png" alt="YouTube Logo" width="50" height="50">
+    </a>
+    <a href="https://www.linkedin.com/company/sigmarkengineers" target="_blank" class="social-link">
+      <img src="linkedin.png" alt="LinkedIn Logo" width="50" height="50">
+    </a>
+  </div>
+</section>
+ <section id="feedback" class="feedback-section">
+  
+    <!-- Paste the Google Form embed code here -->
+  <div class="form-container">
+     <h2>Submit Your Query</h2>
+   Please provide your responses using the Google Form below:</p>
+
+    <button id="open-form-button">Query Form</button>
+  </div>
+  </section>
+
+
+  <script src="scripts.js"></script>
+</body>
+</html>
